@@ -1,0 +1,82 @@
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+
+   
+}
+
+h1{
+    font-family: 'Roboto', serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+.flex-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: lightblue;
+}
+
+.image-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* align horizontal */
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.button-container{
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright-container{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: darkblue;
+    color: floralwhite;
+        padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.Button{
+    background-color: white; /* Green */
+    border: none;
+    color: floralwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: dodgerblue; 
+    color: floralwhite; 
+    border: 2px solid floralwhite;
+}
+
+.nav{
+    padding-right: 20px;
+}
+
+
