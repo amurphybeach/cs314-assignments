@@ -40,7 +40,7 @@ h2 {
     
 }
 .button-container{
-    background: dodgerblue;
+    background: linear-gradient(blue, white);
     display: flex;
     align-items: center;
     flex-direction: column; 
@@ -59,6 +59,15 @@ h2 {
     
 }
 
+.image-gallery-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 150px;
+}
+
 .Button{
     background-color: white; /* Green */
     border: none;
@@ -74,6 +83,15 @@ h2 {
     color: floralwhite; 
     border: 2px solid floralwhite;
 }
+
+.Button:active {
+    background-color: red;
+}
+
+.Button:hover {
+    background-color: crimson;
+}
+
 
 .nav{
     padding-right: 20px;
