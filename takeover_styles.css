@@ -1,0 +1,46 @@
+body { 
+    /* The image used */
+    background-image: url(brady.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.Button{
+    background-color: white; /* Green */
+    border: none;
+    color: floralwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: dodgerblue; 
+    color: floralwhite; 
+    border: 2px solid floralwhite;
+    margin-top:340px;
+}
+
+
+@keyframes fun_times {
+    0%   {background-color: darkblue;}
+    25%  {background-color: lightblue;}
+    50%  {background-color: pink;}
+    100% {background-color: red;}
+}
+
+.Button:hover{
+    animation:fun_times;
+    animation-duration: 3s;
+}

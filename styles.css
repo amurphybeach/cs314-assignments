@@ -1,0 +1,129 @@
+
+
+
+
+.linkbar-item{
+	padding: 5px;
+}
+
+.module {
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #e2e2e2;
+	margin: 5px;
+	padding: 10px;
+	width: 25%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+	
+		transform: none;
+		position: relative;
+		width: 100%;
+}
+
+
+
+.module-icon-wrapper {
+	text-align: center;
+	font-size: 5em;
+}
+
+
+
+.module-button {
+	width: 50%;
+	border: 2px solid #C09A5B;
+	border-radius: 4px;
+	font-size: 1em;
+	padding: 5px;
+    padding-top: 10px;
+	margin: auto;
+	position: relative;
+}
+
+.module-button:hover {
+	background-color: #C09A5B;
+}
+
+.button {
+	border: 2px solid #C09A5B;
+	border-radius: 4px;
+	font-size: 1em;
+	padding: 5px;
+	margin: 5px;
+}
+
+.button:hover {
+	background-color: #C09A5B;
+}
+
+#module-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#header {
+	background-color: #004687;
+}
+
+#header-navigation {
+	padding: 30px; 
+}
+
+#car-icon-wrapper {
+	color: #ffffff;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#page-title-module {
+	background-color: #b7babf;
+	text-align: center;
+	padding: 45px;
+}
+
+
+bg{ background-color: #7AB2DD;}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Roboto';
+    background-color:#7AB2DD;
+}
+
+header {
+	font-size: 1.5em;
+
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #dbe8ff;
+}
