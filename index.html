@@ -1,69 +1,75 @@
+
+ 
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="HTML-Basics">
     <title></title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-   <header>
-       <h1>Fun Website with a Fun Header</h1>
-       <h3> with a smaller, less fun sub-header.</h3>
-       <p> There are lots of fun things to do. Here are some of them. </p>
-       <ol> <li> Go for a Jog </li> 
-            <li> Watch Tom Brady win Superbowls </li> 
-            <li> Design highly sophisticated websites </li> 
-            <li> Make stale jokes </li> 
-       </ol>
-       <a href=http://static.nfl.com/static/content/public/static/img/fantasy/transparent/200x200/BRA371156.png>This is a picture of a football player.</a> 
-      <br>
-       <img src="http://static.nfl.com/static/content/public/static/img/fantasy/transparent/200x200/BRA371156.png" alt="Football Player" height="100" width="100"> <br>
-       This is the same football player, but more conveniently viewable. <br> Below is a list of football players.
-       
-       <table>
-  <thead>
-    <th>First</th>
-    <th>Last </th>
-    <th>Team </th>
-  </thead>
-  <tr>
-    <td>Tom</td>
-    <td>Brady</td>
-    <td>New England Patriots</td>
-  </tr>
-  <tr>
-    <td>Cameron</td>
-    <td>Newton</td>
-    <td>Carolina Panthers</td>
-  </tr>
-  <tr>
-    <td>Russel</td>
-    <td>Wilson</td>
-    <td>Seattle Seahawks</td>
-  </tr>
-  <tr>
-    <td>Peyton</td>
-    <td>Manning</td>
-    <td>Denver Broncos</td>
-  </tr>
-  <tr>
-    <td>Jay</td>
-    <td>Cutler</td>
-    <td>Chicago Bears</td>
-  </tr>
-  <tr>
-    <td>Joe</td>
-    <td>Montana</td>
-    <td>San Francisco 49'ers</td>
-  </tr>
-  <tfoot>
-    <th>First</th>
-    <th>Last </th>
-    <th>Team </th>
-  </tfoot>
-</table>
+  		<header>
+	  		<section class="myHeader">
+	   			<h1 class="Header">Hello There</h1>
+	   			<p class="Header2">Tell me about yourself:</p>
+	   		</section>
+   		</header>
+      
+      
+   		<section class="formMain">
+            
+   			<label class="formLable firstLable">
+   				Whats your first name?
+   				<br>
+   				<input name="fName" class="dataInput" type="text" placeholder="Enter your First Name">
+   			</label>
+            
+   			<label class="formLable lastLable">
+   				Whats your last name?
+   				<br>
+   				<input name="lName" class="dataInput" type="text" placeholder="Enter your Last Name">
+   			</label>
+            
+   			<label class="formLable phoneLable">
+   				Hit me up with them Digits, friend.
+   				<br>
+   				<input name="phoneNumber" class="dataInput" type="Number" placeholder="Enter your Phone Number">
+   			</label>
 
-   
-   <footer>
-   
-  </body>
+   			<label class="boxer">
+   				Rocky Balboa<input type="radio" name= "game" value="Rocky">
+   			</label>
+            
+   			<label class="boxer boxermid">
+   				Ivan Drago <input type="radio" name= "game" value="Drago">
+   			</label>
+            
+   			<label class="boxer boxerright">
+   				Apollo Creed <input type="radio" name= "game" value="Creed">
+   			</label>
+
+   			<label class="DiesTextEdit">
+   				If he dies, what happens?
+   				<br>
+   				<textarea class="textBox" placeholder="He Dies."></textarea>
+   			</label>
+
+   			<label class="DropdownLand">
+   				What did Ivan Drago need to do to Rocky?
+   				<br>
+	   			<select name="survey" class="IvanDragoDropdown">
+	   				<option>Give him a massage.</option>
+	   				<option>Take his photograph.</option>
+	   				<option>Break Him.</option>
+	   			</select>
+   			</label>
+
+   			<input type="submit" name="submit" class="submitButton formLable">
+
+   		</section>
+	</body>
+
 </html>
