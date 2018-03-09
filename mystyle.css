@@ -1,0 +1,203 @@
+
+body {
+    font-family: "AvenirNext-Regular", "Times New Roman", Times, serif;
+    color: #4A4A4A;
+    background-color: #FFFFFF }
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2{
+    margin: 0 0 0 0;
+    font-size 10px;
+}
+
+h3 {padding-top: 0em;
+    padding-bottom: 0em;
+    margin: 0 0;
+    color: crimson;
+    text-align: center;
+}
+
+h4 {
+    font-family: AvenirNext-Regular;
+}
+
+h5{ 
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin: 0 0;
+    color: crimson;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
+
+
+#header{
+    border-bottom:2.5px solid #4A4A4A;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+
+#links{
+    color:#FFFFFF;
+}
+
+a:link{
+    color:#4A4A4A;
+    text-decoration: none;
+}
+
+#linkbar li a:visited{
+    color:#4A4A4A;
+    text-decoration: none;}
+
+#linkbar li a:hover{
+    text-decoration: none;
+    font-family:serif;
+}
+
+#linkbar{
+    
+    text-align: center;
+    list-style: none;
+    font-family: "AvenirNext-Bold";
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#linkbar li {
+    text-align: center;
+    margin-right: -4px;
+    display: inline;
+}
+
+#linkbar a{
+    display: inline;  
+    padding: 50px;
+}
+
+#introduction{
+ 
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+}
+
+#introduction ul li {
+    list-style: none;
+}
+
+#mylinks li{
+    list-style: armenian;
+}
+
+#profilediv{
+    float: right;
+    right: 0;
+    padding-right: 40px;
+}
+
+#profile{
+
+    border: 1px solid black;
+}
+
+/* PROJECTS.HTML */
+
+#project_list{
+    float: left;
+}
+
+.project_item{
+   /* float:left; 
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background: #EDEDED;
+    border: 1px solid #B5B5B5;
+    padding-left: 40px; */
+    
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #B5B5B5;
+    border-radius: 2px;
+    background: #EDEDED;
+
+}
+
+.project_txt{
+    margin-left 40px;
+}
+
+.project_img{
+    float: right    ;
+    
+    padding-right: 20px;
+}
+
+/* LINKS.HTML */
+
+#courseworklist{
+    margin-left: 40px
+    font-family: AvenirNext-Regular;
+    
+    
+}
+
+/* RESUME.HMTL */
+#myresume{
+    font-family: Helvetica, sans-serif;
+    float: left;
+    margin-left: 40px;
+    width: 75%;
+}
+
+#advert{
+    border: 2px solid maroon;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+
+.resumeh1{
+    font-family: Helvetica-Bold;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.resumeh2{
+    font-family: Helvetica-Bold;
+    font-size: 22px;
+    margin-bottom 0;
+}
+
+.resumebody{
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 26px;
+}
+.flr { /* floats right */
+    float:right;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+

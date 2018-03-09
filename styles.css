@@ -1,0 +1,123 @@
+
+.myHeader{
+	height: 7em;
+	background-color: Blue;
+	position: relative;
+	text-align: center;
+    color: white;
+}
+
+.Header{
+	position: absolute;
+	font-size: 3.5em;
+	top:10%;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.Header2{
+	position: absolute;
+	font-size: 1.5em;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.formMain{
+	position: relative;
+	height: 40em;
+}
+
+.formLable{
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 50%;
+    left: 50%;
+}
+.firstLable{
+	top: 5%;
+}
+
+.lastLable{
+	top:13%;
+}
+
+.phoneLable{
+	top:21%;
+}
+
+.dataInput{
+	width: 100%;
+	border: 1px solid black;
+	color: black;
+}
+
+.boxer{
+	position: absolute;
+	top:29%;
+	left:25%;
+}
+
+.boxermid{
+	left:50%;
+	transform: translate(-50%,0);
+}
+
+.boxerright{
+	left:75%;
+	transform: translate(-100%,0);
+}
+
+.DiesTextEdit{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 50%;
+	top:37%;
+}
+
+.textBox{
+	width: 100%;
+	height: 8em;
+	border: 1px solid black;
+	resize: none;
+	color: blue;
+}
+
+.DropdownLand{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 50%;
+	top:60%;
+}
+
+.IvanDragoDropdown{
+	width: 100%;
+	border: 1px solid black;
+}
+
+.submitButton{
+	height: 10%;
+	top:69%;
+	border: 2px solid black;
+	background-color: blue;
+    color: white;
+    font-size: 3em;
+}
+
+.submitButton:hover{
+	background: gray;
+}
+
+
+@media screen and (max-width: 767px) {
+	.Lable{
+		width: 80%;
+	}
+	.IvanDragoDropdown{
+		width: 80%;
+	}
+	.submitButton{
+		width: 80%;
+	}
