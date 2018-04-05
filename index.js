@@ -18,7 +18,7 @@ function charSwap(iString) {
 	cutoff = iString.substring(1,iString.length);
 	cutoff = iString.substring(0,iString.length - 1);
 
-	let newString = character_2 + cutoff + charactere_1;
+	let newString = character_2 + cutoff + character_1;
 	alert("Output: " + newString);
 }
 
@@ -210,7 +210,7 @@ function Get_Time() {
 }
 
 // Problem Ten --  Unlimited Function
-function unlimitedFunction() {
+function UNLIMITED_STRINGS() {
 	let INFINITE_STRINGS = "";
 	for(let i = 0; i < arguments.length; i++) {
 		INFINITE_STRINGS += arguments[i];
