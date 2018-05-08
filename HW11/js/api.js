@@ -7,19 +7,15 @@ $(window).on('load',function(){
     $('.toggle-nav').click(toggleNavMenu)
 });
 
-
-// API calls
 function Get(url){
-    var Httpreq = new XMLHttpRequest(); // a new request
+    var Httpreq = new XMLHttpRequest();
     Httpreq.open("GET",url,false);
     Httpreq.send(null);
     return Httpreq.responseText;          
 }
 
-// API
 var json_obj = JSON.parse(Get("https://www.themealdb.com/api/json/v1/1/random.php"));
 
-// DATA
 var newDiv = document.createElement("div");
 var tableRow = document.createElement("tr");
 var mealName = document.createElement("td");
@@ -48,7 +44,6 @@ var button = document.getElementById("button");
 
 api.insertBefore(newDiv,button);
 
-//RECIPE INFO
 var list = document.createElement("ol")
 var ingredients = [];
 for(i =0;i<21;i++){
