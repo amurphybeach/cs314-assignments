@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
+    <title>Locales</title>
+</head>
+<body>
+
+    <header class="header">
+            <div class="center">
+                <a class="logo" href="home.html"><img src="images/pats.png" alt=""></a>
+                <span class="toggle-nav">Menu</span>
+                <nav class="top-menu collapse">
+                    <ul>
+                    <li class="menu-header"><a href="index.html" class="button">TB12 Home</a></li>
+                    <li class="menu-header"><a href="form.html" class="button">Newsletter</a></li>
+                    <li class="menu-header"><a href="map.html" class="button">Tom's Favorite Spots</a></li>
+                    <li class="menu-header"><a href="api.html" class="button">Tom's Recipe Randomizer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="hidden-panel">
+                <h1>Find some of Tom's favorite places to order UberEats from!</h1>
+        </div>
+
+        <div id="map" class="card"></div>
+
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAIyeU9ygReWNvTK7a2zGyWx2hRxWN4Mg&callback=initMap">
+        </script>
+    
+
+    <footer class="footer">
+        <h1>Personally Approved by Sir Thomas Brady XIV  </h1>
+    </footer>
+
+    
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+
+</body>
+</html>
